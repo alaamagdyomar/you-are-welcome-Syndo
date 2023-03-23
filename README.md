@@ -13,10 +13,7 @@ This is a complete template that is developed by Next.js frame work and codded w
     2 - Arabic
     3 - French
     
-    
-    
-    
-    run commands 
+   Run commands on local host
     
     1 - npm install
     2 - npm run dev
