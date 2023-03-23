@@ -1,0 +1,36 @@
+.header_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  .span{
+      font-size: 50px;
+  }
+  .pages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+  }
+   .actions{
+    display: flex;
+    flex-direction: row;
+  }
+   
+  .login_Btn{
+    background-color: transparent;
+    border: none;
+    margin-right:15px;
+    cursor: pointer;  
+  }
+  .getStarted_Btn{
+    width: 240px;
+    height: 60px;
+    background: #00ACB1;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;  
+  }

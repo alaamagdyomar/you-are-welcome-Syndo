@@ -1,0 +1,49 @@
+.talk_container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-bottom: 30px;
+    }
+    .talk_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 59px;
+    margin-left: 122px;
+    margin-bottom: 30px;
+    }
+    .talk_cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    margin-left: 122px;
+    }
+    .talk_item{
+    border: 1px solid gray;
+    width: 15%;
+    background: linear-gradient(180deg, rgba(5, 69, 70, 0.7) 0%, rgba(196, 196, 196, 0) 100%);
+    border-radius: 20px;
+    }
+    .talk_span{
+    display: inline-block;;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 59px;
+    color: #FFFFFF;
+    border-bottom: 1px solid gray;
+    margin-left: 15px;
+    white-space: nowrap ;
+    }
+    .talk_parag{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 15px;
+    }

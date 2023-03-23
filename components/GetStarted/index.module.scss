@@ -1,0 +1,43 @@
+.get_started {
+    display: flex;
+    padding-left: 125px;
+    // justify-content: flex-start;
+  }
+  .first_step {
+    width: 50%;
+  }
+  .first_title {
+    font-size: 50px;
+    line-height: 59px;
+    width: 80%;
+    text-align: left;
+  }
+  .first_parag{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #00ACB1;
+  }
+  .second_parag{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #656F77;
+  }
+  .first_Btn {
+    margin-left: 180px;
+    width: 20%;
+    height: 15%;
+    background: #00ACB1;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .promo_dev{
+    width: 50%;
+  }

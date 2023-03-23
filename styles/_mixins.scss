@@ -1,0 +1,5 @@
+@import "variables";
+@function get-vw($target) {
+  $vw-context: ($baseWidth * 0.01);
+  @return #{$target/ $vw-context};
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:wght@500;700&display=swap');
+$mainColor: #0078fc;
+$titleColor:#101828;
+$basicBackground:#F9FAFB;
+$titleFontSize: 24px;
+$baseWidth:2880;
+$baseWidth: 2880;
+$boldTextColor: #475467;
+$lightTextColor: #667085;
+$successGreen: #ecfdf3;
+$FontFamily:"Inter", sans-serif;
+:export {
+  mainColor: $mainColor;
+  boldTextColor: $boldTextColor;
+  lightTextColor: $lightTextColor;
+  successGreen: $successGreen;
+}
+
+// Text variables
+$font-family_md: 'Inter';
+$font-style_md: normal;
+$font-weight_md: 500;
+$font-size_md: 16px;
+$line-height_md: 24px;
+
+.text_md{
+  font-style: $font-size_md;
+  font-weight: $font-weight_md;
+  font-size: $font-size_md;
+  line-height: $line-height_md;
+}

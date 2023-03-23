@@ -1,0 +1,18 @@
+@import "./home/index.scss";
+.main_layout_ar {
+  direction: rtl;
+}
+.main_layout_en {
+  direction: ltr;
+}
+
+.main_layout_{
+  display: flex;
+}
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box ;
+  // background-color: $basicBackground;
+  // font-family: "Gotham-Book";
+}
