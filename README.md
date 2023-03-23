@@ -12,7 +12,12 @@ This is a complete template that is developed by Next.js frame work and codded w
     1 - English
     2 - Arabic
     3 - French
-
     
-
-
+    
+    
+    
+    run commands 
+    
+    1 - npm install
+    2 - npm run dev
+    
