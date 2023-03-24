@@ -8,8 +8,6 @@
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
-    "@material-ui/core": "^4.12.4",
-    "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.14",
     "next": "latest",
     "next-i18next": "^11.0.0",
