@@ -2,9 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm install --force && next build",
+    "build": "next build",
     "start": "next start",
-    "vercel-build": "npm install --force && npm run build"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
