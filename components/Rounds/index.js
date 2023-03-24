@@ -45,7 +45,7 @@ const Rounds = ({isDarkMode}) => {
                       <p className={styles.avatar_p}>Followed by <span className={styles.span} >Mohamed Aziz</span>  and <span className={styles.span}>12 others</span></p>
                   </div>
                 </div>    
-            </div>     
+            </div>  
             <div className={styles.card_item}>
                 <div className={styles.card_header}>
                       <div className={styles.card_image}>
@@ -74,7 +74,7 @@ const Rounds = ({isDarkMode}) => {
                       <p className={styles.avatar_p}>Followed by <span className={styles.span} >Mohamed Aziz</span>  and <span className={styles.span}>12 others</span></p>
                   </div>
                 </div>    
-            </div>     
+            </div>      
             <div className={styles.card_item}>
                 <div className={styles.card_header}>
                       <div className={styles.card_image}>
@@ -103,7 +103,7 @@ const Rounds = ({isDarkMode}) => {
                       <p className={styles.avatar_p}>Followed by <span className={styles.span} >Mohamed Aziz</span>  and <span className={styles.span}>12 others</span></p>
                   </div>
                 </div>    
-            </div>          
+            </div>               
         </div>          
     </div>
   )

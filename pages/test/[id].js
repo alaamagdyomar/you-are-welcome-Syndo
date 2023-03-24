@@ -1,5 +1,6 @@
 
 export async function getStaticProps({params}) {
+  console.log('params id =',params.id)
 
     return {
       props: {
