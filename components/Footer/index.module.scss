@@ -1,27 +1,39 @@
 .footer_container{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding-inline: 80px;
     }
     .footer_up{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: left;
-    margin-left: 30px;
     }
     .footer_down{
-    margin-left: 120px;
     text-align: left;
     }
     .company_details{
     width: 25%;
     text-align: left; 
-    padding-left: 25px;
     }
     .syndo{
+    display: flex;
     font-size: 50px;
     margin-bottom: 30px;
     }
     .syndo_span{
     font-size: 50px;
     }
+
+    @media(max-width: 700px) {
+        .footer_up{
+                padding-top: 40px;
+                flex-direction: column;
+                justify-content: space-between;
+            }    
+            .o{
+                margin-top: 18px;
+            }
+            .footer_container{
+                padding-inline: 25px;
+                }
+      }

@@ -3,3 +3,22 @@
   $vw-context: ($baseWidth * 0.01);
   @return #{$target/ $vw-context};
 }
+
+//mixins
+//media mixin
+@mixin m($width) {
+  @media(max-width:#{$width}px) {
+      @content;
+  }
+}
+@mixin en {
+  html[dir="ltr"] & {
+      @content;
+  }
+}
+
+@mixin ar {
+  html[dir="rtl"] & {
+      @content;
+  }
+}

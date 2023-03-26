@@ -1,7 +1,7 @@
 .rounds_container{
     display: flex;
     flex-direction: column;
-    padding-left: 122px;
+    padding-inline: 80px;
   }
 .rounds_title{
     display: flex;
@@ -18,16 +18,36 @@
   }
 .cards{
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: space-between;
   }
+  @media(max-width: 700px) {
+    .cards{
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .rounds_container{
+      display: flex;
+      flex-direction: column;
+      padding-left: 30px;
+      padding-inline: 5px;
+    }
+  }
+  @media(max-width: 800px) {
+    .rounds_container{
+      display: flex;
+      flex-direction: column;
+      padding-left: 30px;
+      padding-inline: 5px;
+    }
+  }
+
 .card_item{
       display: flex;
       flex-direction: column;
       align-items: space-around;
-      width: 31%;
       margin-bottom: 20px;
       border-radius: 5px;
+      margin-inline-end: 30px;
   }
 .card_image{
   position: relative;
@@ -103,23 +123,21 @@
         width: 30%;
         cursor: pointer;
 }
-
 .card_footer{
     display: flex;
     justify-content: left;
     height: 100px;
     padding: 5;
     }
-   .avatar_items{
-    width: 30%;
+.avatar_items{
     height: 10px;
-    margin-left: 20px;
+    margin-left: 6px;
     margin-top: 15px;
     }
-    .span{
+.span{
     color: #00ACB1;
     }
-    .avatar_p{
+.avatar_p{
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;

@@ -5,9 +5,7 @@ export default function Layout({ children }) {
     const router = useRouter()
     return (
         <div className={styles.main_layout_}>
-            <div >
-                <main>{children}</main>
-            </div>
+            <main>{children}</main>
         </div>
     );
 }

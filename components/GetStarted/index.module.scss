@@ -1,15 +1,17 @@
 .get_started {
     display: flex;
-    padding-left: 125px;
-    // justify-content: flex-start;
+    justify-content: center;
+    padding-inline: 80px;
   }
   .first_step {
-    width: 50%;
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+      padding-bottom: 20px;
   }
   .first_title {
     font-size: 50px;
-    line-height: 59px;
-    width: 80%;
+    line-height: 49px;
     text-align: left;
   }
   .first_parag{
@@ -31,13 +33,28 @@
     color: #656F77;
   }
   .first_Btn {
-    margin-left: 180px;
-    width: 20%;
-    height: 15%;
+    width: 50%;
+    height: 50px;
     background: #00ACB1;
     border-radius: 8px;
     cursor: pointer;
   }
   .promo_dev{
-    width: 50%;
+    width: 100%;
+  }
+
+  @media(max-width: 500px) {
+      .get_started{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-inline: 15px;
+        align-items: center;
+      }
+      .first_Btn {
+        height: 50px;
+        background: #00ACB1;
+        border-radius: 8px;
+        cursor: pointer;
+      }
   }

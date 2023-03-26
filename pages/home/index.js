@@ -8,10 +8,7 @@ import GetStarted from '../../components/GetStarted';
 import Rounds from '../../components/Rounds';
 import TalkCard from '../../components/Card';
 import Footer from '../../components/Footer';
-
-
-
-
+import styles from './index.module.scss'
 
 export default function Home() {
   const router = useRouter();
@@ -23,18 +20,16 @@ export default function Home() {
 
   return (
     <Layout>
-      <div className="container">
+      <div className={styles.container}>
       <Head>
         <title>Syndo | Home</title>
       </Head>
-      <main>
-          <LightMode isDarkMode={isDarkMode} handleToggle={handleToggle}/>
-          <Header isDarkMode={isDarkMode} />
-          <GetStarted isDarkMode={isDarkMode}/>
-          <Rounds isDarkMode={isDarkMode}/>
-          <TalkCard isDarkMode={isDarkMode}/>
-          <Footer isDarkMode={isDarkMode}/>
-      </main>
+        <LightMode isDarkMode={isDarkMode} handleToggle={handleToggle}/>
+        <Header isDarkMode={isDarkMode} />
+        <GetStarted isDarkMode={isDarkMode}/>
+        <Rounds isDarkMode={isDarkMode}/>
+        <TalkCard isDarkMode={isDarkMode}/>
+        <Footer isDarkMode={isDarkMode}/>
       <footer></footer>
     </div>
     </Layout>

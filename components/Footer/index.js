@@ -9,7 +9,7 @@ const Footer = ({isDarkMode}) =>{
            <div className={styles.company_details}>
                 <div className={styles.syndo}>
                   <span className={styles.syndo_span}>Synd</span>
-                  <Image src='/O.png' width={30} height={30} alt="" />
+                  <Image className={styles.o} src='/O.png' width={30} height={30} alt="" />
                 </div>
                 <span> created by angels for angels</span>
                 <div className='policy-div'>
@@ -17,22 +17,22 @@ const Footer = ({isDarkMode}) =>{
                     <span>Legal Terms</span>
                 </div>       
            </div>
-           <div className="company-home">
+           <div className={styles.company_home}>
                 <span>Home</span>
                 <p>For Investors</p>
                 <p> For Companies</p>
            </div>
-           <div className="company-about">
+           <div className={styles.company_about}>
                 <span>About us</span>
                 <p>   About us</p>
                 <p>   Risk</p>
            </div>
-           <div className="resources">
+           <div className={styles.resources}>
                 <span>resources</span>
                 <p>   FAQs </p>
                 <p>   Contact Us</p>
            </div>
-           <div className="language">
+           <div className={styles.language}>
               <span>Eng   ^</span>
            </div>
         </div>

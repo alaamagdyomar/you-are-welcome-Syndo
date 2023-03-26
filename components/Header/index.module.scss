@@ -1,9 +1,12 @@
 .header_div{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding-inline: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .span{
       font-size: 50px;
@@ -33,4 +36,19 @@
     border-radius: 8px;
     cursor: pointer;
     outline: none;  
+  }
+
+  @media(max-width: 500px) {
+    .logo{
+      margin-bottom: 15px;
+    }
+    .pages{
+      margin-bottom: 15px;
+    }
+    .actions{
+      margin-bottom: 15px;
+    }
+    .header_div{
+      padding: 0;
+    }
   }
